@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <link rel="shortcut icon" href="./imgdir/favicon.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <title>MyJio</title>
 </head>
 <body>
@@ -54,6 +56,49 @@
 
         </div>
     </header>
-    
+    <br>
+    <!-- Flickity HTML init -->
+    <div class="carousel"
+    data-flickity='{ "wrapAround": true }'>
+    <div class="carousel-cell"><img id="cell-img" src="./imgdir/cell-img1.png" alt="image"></div>
+    <div class="carousel-cell"><img id="cell-img" src="./imgdir/cell-img2.png" alt="image"></div>
+    <div class="carousel-cell"><img id="cell-img" src="./imgdir/cell-img3.png" alt="image"></div>
+    </div>
+
+    <div id="gsc">
+        <h1>Get set, connect</h1>
+
+        <!-- <div id="m_af">not now</div> -->
+
+        <div id="pp">
+
+            <div id="pptext">
+                <div id="text1">
+                    <p>Prepaid</p>
+                </div>
+                <p>Postpaid</p>
+            </div>
+
+            <form action="">
+                <input type="tel" name="number" id="number" maxlength="10" placeholder="+91 - ">
+                <input type="submit" value="Proceed" id="btn">
+            </form>
+        </div>
+
+        <div id="connect">
+            <a href="">Get JioAirFiber</a>
+            <a href="">Get Jio SIM - iActivate</a>
+            <a href="">Get JioFiber</a>
+            <a href="">Port to Jio</a>
+        </div>
+       
+    </div>
+        
+
+
+
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
